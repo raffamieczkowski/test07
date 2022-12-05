@@ -1,0 +1,24 @@
+.footer {
+    background-color:var(--background);
+  }
+  .footer .logo {
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  
+  .logo {
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--black);
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+  .foot {
+    display: flex;
+    justify-items: auto;
+    align-items: flex-start;
+  }

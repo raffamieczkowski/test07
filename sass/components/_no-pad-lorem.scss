@@ -1,0 +1,32 @@
+.no__pad {
+    padding-top: 94px;
+    padding-bottom: 0;
+  }
+  .container {
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .lorem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .first-lorem,
+  .second-lorem,
+  .third-lorem,
+  .fourth-lorem {
+    background-color: var(--background-white);
+  }
+  
+  .first-lorem, .fourth-lorem {
+    padding: 25px 0;
+  }
+  .second-lorem, .third-lorem {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  

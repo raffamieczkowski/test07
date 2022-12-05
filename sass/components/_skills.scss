@@ -1,0 +1,39 @@
+.skills {
+    padding-block: 94px;
+  }
+  .about-us__banner {
+    margin: 94px auto 50px;
+    max-width: 353px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.16;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+  
+  .about-us__gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-us-gallery-item {
+    flex-basis: calc((100% - 60px) / 3);
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+.about-us__background {
+    margin-top: 224px;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-us__info{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
+  }

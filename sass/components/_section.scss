@@ -1,0 +1,31 @@
+.lorem__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .no-decoration {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .lorem__item {
+    flex-basis: calc((100% - 90px) / 4);
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+.lorem__item {
+    flex-basis: calc((100% - 90px) / 4);
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+.lorem__text {
+    line-height: 1.71;
+    color: var(--bright-grey);
+  }
+  .lorem__tittle {
+    text-transform: uppercase;
+  }
